@@ -1,0 +1,11 @@
+services:
+  backend:
+    build: server/.
+    ports:
+    - "8888:8888"
+    command: npm start
+
+  frontend:
+    build: client/.
+    ports:
+    - "3000:3000"
