@@ -1,6 +1,6 @@
 services:
   backend:
-    build: server/.
+    build: api/.
     ports:
     - "8888:8888"
     command: npm start

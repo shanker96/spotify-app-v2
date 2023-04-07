@@ -1,7 +1,7 @@
 #!/bin/bash
 
 docker build --file=client/Dockerfile -t client-img .
-docker build --file=server/Dockerfile -t server-img .
+docker build --file=api/Dockerfile -t api-img .
 docker-compose build -t spotify-app-ecr .
 docker-compose -f docker-compose.yaml up
 
