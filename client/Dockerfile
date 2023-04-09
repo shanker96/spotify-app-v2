@@ -7,7 +7,7 @@
 FROM node:19.8.1-alpine
 RUN mkdir -p /apps/spotify/client
 WORKDIR /apps/spotify/client
-COPY package*.json .
+COPY package*.json ./
 RUN npm install
 COPY . .
 RUN ls
