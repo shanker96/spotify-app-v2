@@ -1,11 +1,14 @@
 services:
-  backend:
+  api:
+    image: spotify-app-api:latest
     build: api/.
     ports:
     - "8888:8888"
     command: npm start
 
   frontend:
+    image: spotify-app-client:latest
     build: client/.
     ports:
     - "3000:3000"
+    command: npm start
