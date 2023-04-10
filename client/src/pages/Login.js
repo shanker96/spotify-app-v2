@@ -26,7 +26,7 @@ const StyledLoginButton = styled.a`
 
 const LOGIN_URI =
   process.env.NODE_ENV !== 'production'
-    ? 'http://localhost:8888/login'
+    ? 'http://0.0.0.0:8888/login'
     : 'https://spotifyprofilev1.netlify.app/login';
 
 const Login = () => (

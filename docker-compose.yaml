@@ -1,6 +1,7 @@
 services:
   api:
     image: spotify-app-api:latest
+    #platform: linux/amd64
     build: api/.
     ports:
     - "8888:8888"
@@ -8,6 +9,7 @@ services:
 
   frontend:
     image: spotify-app-client:latest
+    #platform: linux/amd64
     build: client/.
     ports:
     - "3000:3000"
