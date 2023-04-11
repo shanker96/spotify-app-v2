@@ -1,11 +1,11 @@
 # spotify-app-v2
 
-### Backend Development (Node.js):
+## Backend Development (Node.js):
 * Set up a Node.js server to handle API requests and responses.
 * Utilized the Spotify API to authenticate and fetch user data, including top artists, top tracks, and top playlists.
 * Implemented API endpoints to handle different types of requests for user data from the Spotify API.
  
-### Frontend Development (React.js):
+## Frontend Development (React.js):
 * Built a user-friendly and responsive user interface using React.js to display the fetched user data.
 * Designed and implemented components for displaying top artists, top tracks, and top playlists.
 * Implemented user authentication using Spotify's authentication flow to allow users to log in and authorize the application to access their Spotify data.
